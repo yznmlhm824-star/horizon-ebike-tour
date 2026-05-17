@@ -71,7 +71,7 @@
         /* Header */
         header { 
             background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%232d5a27;stop-opacity:1" /><stop offset="100%" style="stop-color:%235a8c3a;stop-opacity:1" /></linearGradient></defs><rect fill="url(%23grad)" width="1200" height="400"/></svg>');
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><defs><linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:%232d5a27;stop-opacity:1" /><stop offset="100%" style="stop-color:%23d4a017;stop-opacity:1" /></linearGradient></defs><rect width="1200" height="400" fill="url(%23grad)"/></svg>');
             background-size: cover; 
             background-position: center; 
             height: 40vh; 
@@ -427,7 +427,7 @@
             <div class="logo">🚴‍♂️ أفق Horizon</div>
             <ul>
                 <li><a href="#overview">نظرة عامة</a></li>
-                <li><a href="#map">الخريطة</a></li>
+                <li><a href="#itinerary">البرنامج</a></li>
                 <li><a href="#prices">الأسعار</a></li>
                 <li><a href="#features">المميزات</a></li>
                 <li><a href="#booking">الحجز</a></li>
@@ -439,7 +439,7 @@
     <header>
         <h1>🌄 مشروع أفق | HORIZON</h1>
         <p>رحلة دراجات كهربائية عبر المناطق الأثرية السورية</p>
-        <p style="font-size: 0.95rem; margin-top: 10px;">5 أيام من المغامرة والاكتشاف | 2026</p>
+        <p style="font-size: 0.95rem; margin-top: 10px;">5 أيام من المغامرة والاستكشاف | 2026</p>
     </header>
 
     <div class="container">
@@ -450,11 +450,11 @@
             <div class="info-grid">
                 <div class="day-box">
                     <h3>🎯 الهدف</h3>
-                    <p>رحلة سياحية مدروسة تجمع بين المغامرة والاستكشاف الأثري، مع دعم المجتمعات المحلية والاقتصاد الريفي في المناطق المزارة.</p>
+                    <p>رحلة سياحية مدروسة تجمع بين المغامرة والاستكشاف الأثري، مع دعم المجتمعات المحلية والاقتصاد الريفي والبيئة الطبيعية.</p>
                 </div>
                 <div class="day-box">
-                    <h3>🌍 المسار</h3>
-                    <p><strong>الناصرة</strong> ← <strong>قلعة الحصن</strong> ← <strong>سد المزينة</strong> ← <strong>الحواش</strong> ← <strong>صافيتا</strong> ← <strong>مشتى الحلو</strong> ← <strong>حمام واصل</strong> ← <strong>طرطوس</strong></p>
+                    <h3>🌍 المسار الرئيسي</h3>
+                    <p><strong>الناصرية</strong> → <strong>قلعة الحصن</strong> → <strong>سد المزينة</strong> → <strong>الحواش</strong> → <strong>صافيتا</strong> → <strong>مشتى الحلو</strong> → <strong>حمام واصل</strong> → <strong>طرطوس</strong></p>
                 </div>
             </div>
         </section>
@@ -496,19 +496,78 @@
             </div>
         </section>
 
-        <!-- Map Section -->
-        <section id="map">
-            <h2>🗺️ مسار الرحلة والخريطة</h2>
-            <div class="day-box" style="border-right-color: var(--secondary);">
-                <h3>المسار التفصيلي</h3>
-                <p style="margin-bottom: 15px;">اليوم الأول: الناصرة ← قلعة الحصن (رحلة سهلة تعريفية)</p>
-                <p style="margin-bottom: 15px;">اليوم الثاني: قلعة الحصن ← سد المزينة (مسار جبلي متوسط)</p>
-                <p style="margin-bottom: 15px;">اليوم الثالث: الحواش ← صافيتا (يوم استكشافي)</p>
-                <p style="margin-bottom: 15px;">اليوم الرابع: صافيتا ← مشتى الحلو ← حمام واصل (مسار ساحلي)</p>
-                <p style="margin-bottom: 20px;">اليوم الخامس: حمام واصل ← طرطوس (نهاية الرحلة)</p>
-                <div class="map-box">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d104683.475472852!2d36.2466039!3d34.8219463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2sy!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
+        <!-- Itinerary Section -->
+        <section id="itinerary">
+            <h2>🗓️ البرنامج التفصيلي (5 أيام)</h2>
+            
+            <div class="day-box">
+                <h3>📍 اليوم الأول: الناصرية → قلعة الحصن → سد المزينة (التخييم)</h3>
+                <p><strong>🕐 المحطات الرئيسية:</strong></p>
+                <ul style="text-align: right; margin: 15px 0;">
+                    <li>✓ التجمع والانطلاق من الناصرية</li>
+                    <li>✓ اختبار كفاءة المحرك الكهربائي وصعود قلعة الحصن</li>
+                    <li>✓ غداء ريفي في المنطقة</li>
+                    <li>✓ التوجه نحو سد المزينة عبر مسارات منحدرة</li>
+                    <li>✓ التخييم على ضفاف السد</li>
+                    <li>✓ عشاء شواء جماعي وتجربة النجوم</li>
+                </ul>
+            </div>
+
+            <div class="day-box">
+                <h3>📍 اليوم الثاني: الجول بالغابات → الحواش → تمثال السيدة مريم (المبيت الريفي)</h3>
+                <p><strong>🕐 المحطات الرئيسية:</strong></p>
+                <ul style="text-align: right; margin: 15px 0;">
+                    <li>✓ إفطار قروي تقليدي على ضفاف السد</li>
+                    <li>✓ رحلة جول عبر الغابات والمسارات الخضراء</li>
+                    <li>✓ الوصول إلى قرية الحواش الجميلة</li>
+                    <li>✓ تحدي صعود جبل السائح والوصول لتمثال السيدة مريم</li>
+                    <li>✓ غداء شعبي أصيل من الإنتاج المحلي</li>
+                    <li>✓ المبيت الريفي في منزل محلي (Home-stay)</li>
+                    <li>✓ عشاء منزلي تقليدي مع أهالي المنطقة</li>
+                </ul>
+            </div>
+
+            <div class="day-box">
+                <h3>📍 اليوم الثالث: صافيتا → التجول بالقلاع والأسواق (المبيت في صافيتا)</h3>
+                <p><strong>🕐 المحطات الرئيسية:</strong></p>
+                <ul style="text-align: right; margin: 15px 0;">
+                    <li>✓ إفطار ريفي ومغادرة المنطقة نحو صافيتا</li>
+                    <li>✓ استكشاف أسوار وقلاع صافيتا التاريخية</li>
+                    <li>✓ التجول في الأسواق المحلية والعتيقة</li>
+                    <li>✓ غداء في مطعم محلي يطل على القرية</li>
+                    <li>✓ زيارة المواقع الأثرية والكنائس التاريخية</li>
+                    <li>✓ المبيت في صافيتا</li>
+                    <li>✓ عشاء بنكهة صافيتا التقليدية</li>
+                </ul>
+            </div>
+
+            <div class="day-box">
+                <h3>📍 اليوم الرابع: مشتى الحلو → مغارة الدوريات (المبيت في مشتى الحلو)</h3>
+                <p><strong>🕐 المحطات الرئيسية:</strong></p>
+                <ul style="text-align: right; margin: 15px 0;">
+                    <li>✓ إفطار في صافيتا والانطلاق نحو مشتى الحلو</li>
+                    <li>✓ استكشاف طبيعة مشتى الحلو الخضراء والجميلة</li>
+                    <li>✓ غداء وسط الطبيعة</li>
+                    <li>✓ زيارة واستكشاف مغارة الدوريات التاريخية</li>
+                    <li>✓ رحلة استرخاء وتأمل في الطبيعة</li>
+                    <li>✓ المبيت في مشتى الحلو</li>
+                    <li>✓ عشاء محلي ومشاهدة غروب الشمس</li>
+                </ul>
+            </div>
+
+            <div class="day-box">
+                <h3>📍 اليوم الخامس: حمام واصل → طرطوس (النهاية)</h3>
+                <p><strong>🕐 المحطات الرئيسية:</strong></p>
+                <ul style="text-align: right; margin: 15px 0;">
+                    <li>✓ إفطار في مشتى الحلو</li>
+                    <li>✓ الانطلاق نحو حمام واصل والينابيع الكبريتية</li>
+                    <li>✓ جلسة استشفاء وسباحة في حمام واصل</li>
+                    <li>✓ غداء بعد الظهيرة</li>
+                    <li>✓ الانطلاق نحو طرطوس الساحلية</li>
+                    <li>✓ الوصول لشاطئ طرطوس والسباحة الختامية</li>
+                    <li>✓ عشاء بحري ختامي على الشاطئ</li>
+                    <li>✓ تسليم الصور والذكريات الرقمية</li>
+                </ul>
             </div>
         </section>
 
@@ -516,28 +575,28 @@
         <section id="prices">
             <div class="price-section">
                 <h2 style="margin-bottom: 10px;">💰 التكلفة الإجمالية للرحلة</h2>
-                <p style="text-align: center; margin-bottom: 20px; color: #666;">5 أيام من المغامرة والاستكشاف - السعر يشمل الخدمات اللوجستية الكاملة ودعم المجتمع المحلي</p>
+                <p style="text-align: center; margin-bottom: 20px; color: #666;">5 أيام من المغامرة والاستكشاف - السعر يشمل جميع الخدمات اللوجستية والمبيت والوجبات</p>
                 <div class="price-grid">
                     <div class="price-item">
                         <h3>🏃 باقة "المغامر"</h3>
-                        <span class="price-value">3,500,000 ل.س</span>
+                        <span class="price-value">100,000 ل.س</span>
                         <p style="font-size: 0.9rem; margin-bottom: 15px;">للفرد الواحد</p>
                         <ul style="text-align: right; font-size: 0.85rem; line-height: 1.8;">
                             <li>✓ استئجار الدراجة والخوذة</li>
                             <li>✓ سيارة الدعم المجهزة</li>
-                            <li>✓ جميع الوجبات</li>
-                            <li>✓ المبيت والتخييم</li>
+                            <li>✓ جميع الوجبات (15 وجب��)</li>
+                            <li>✓ المبيت والتخييم (4 ليالي)</li>
                             <li>✓ التأمين الأساسي</li>
                             <li>✓ دخول المواقع الأثرية</li>
                         </ul>
                     </div>
                     <div class="price-item">
                         <h3>👥 باقة "المجموعة"</h3>
-                        <span class="price-value">3,100,000 ل.س</span>
+                        <span class="price-value">85,000 ل.س</span>
                         <p style="font-size: 0.9rem; margin-bottom: 15px;">للفرد (4 أشخاص فأكثر)</p>
                         <ul style="text-align: right; font-size: 0.85rem; line-height: 1.8;">
                             <li>✓ كل مميزات الباقة الأساسية</li>
-                            <li>✓ خصم خاص للمجموعات</li>
+                            <li>✓ خصم خاص للمجموعات (15%)</li>
                             <li>✓ ملائم للأندية الرياضية</li>
                             <li>✓ مناسب للجماعات المدرسية</li>
                             <li>✓ برنامج فريقي خاص</li>
@@ -550,25 +609,6 @@
                     <span class="badge">✓ الأسعار تشمل التأمين الأساسي</span>
                     <span class="badge">✓ دخول جميع المواقع الأثرية مشمول</span>
                     <span class="badge gold">✓ خصومات إضافية للمجموعات الكبيرة</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Schedule Section -->
-        <section id="schedule">
-            <h2>🗓️ جدول الوجبات والأنشطة</h2>
-            <div class="timeline">
-                <div class="timeline-item day-box">
-                    <h3>🌅 الفطور: تقليدي وأصيل</h3>
-                    <p>من إنتاج العائلات المضيفة مباشرة: لبنة، زيتون، مكدوس، خبز تنور طازج، عسل وزبدة</p>
-                </div>
-                <div class="timeline-item day-box">
-                    <h3>☀️ الغداء: شعبي لذيذ</h3>
-                    <p>وجبات شعبية أصيلة (صفيحة، كبة، سمك) في مطاعم محلية تدعم الاقتصاد المحلي</p>
-                </div>
-                <div class="timeline-item day-box">
-                    <h3>🌙 العشاء: تخييم وشواء</h3>
-                    <p>تخييم تحت النجوم مع شواء جماعي في الطبيعة أو بضيافة دافئة من الأهالي</p>
                 </div>
             </div>
         </section>
@@ -603,7 +643,7 @@
             <h2>⚙️ المواصفات التقنية</h2>
             <div class="logistics-card">
                 <h3>🚲 مواصفات الدراجات الكهربائية</h3>
-                <p><strong>المحرك:</strong> 500W Mid-drive (مثالي للمرتفعات الجبلية في الوادي وصافيتا)</p>
+                <p><strong>المحرك:</strong> 500W Mid-drive (مثالي للمرتفعات الجبلية)</p>
                 <p><strong>البطارية:</strong> Samsung Lithium-Ion 48V / 14Ah (تكفي لمسافة 70 كم في الشحنة الواحدة)</p>
                 <p><strong>الوزن الأقصى:</strong> تتحمل حتى 120 كغ (الراكب + المعدات)</p>
                 <p><strong>الإطارات:</strong> All-terrain مقاس 28 بوصة</p>
@@ -640,8 +680,8 @@
                             <label for="package">اختر الباقة *</label>
                             <select id="package" name="package" required>
                                 <option value="">-- اختر باقة --</option>
-                                <option value="adventurer">باقة المغامر (3,500,000 ل.س)</option>
-                                <option value="group">باقة المجموعة (3,100,000 ل.س)</option>
+                                <option value="adventurer">باقة المغامر (100,000 ل.س)</option>
+                                <option value="group">باقة المجموعة (85,000 ل.س)</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -665,7 +705,7 @@
         <p><strong>مشروع ترويج سياحي متكامل</strong></p>
         <p>جامعة حمص | كلية السياحة والفنادق</p>
         <p style="margin-top: 20px;">📧 البريد: horizon@tourism.sy</p>
-        <p>📱 الهاتف: +963 31 XXX XXXX</p>
+        <p>📱 الهاتف: +963 993 491 044</p>
         <div class="social-links">
             <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
