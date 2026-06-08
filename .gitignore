@@ -1,0 +1,129 @@
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.project
+.classpath
+*.rar
+
+# ===== IDE & EDITORS =====
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.iml
+*.iws
+*.ipr
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# ===== NODE & DEPENDENCIES =====
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# ===== BUILD & DIST =====
+dist/
+build/
+.cache/
+out/
+
+# ===== ENVIRONMENT VARIABLES =====
+.env
+.env.local
+.env.*.local
+
+# ===== LOGS & TEMPORARY FILES =====
+*.log
+logs/
+*.tmp
+temp/
+tmp/
+
+# ===== OS SPECIFIC =====
+# macOS
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ===== MEDIA FILES (LARGE) =====
+# Uncomment if storing media files in repo
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+# *.flv
+# *.wav
+# *.mp3
+
+# ===== BACKUP FILES =====
+*.bak
+*.backup
+*~
+*.orig
+
+# ===== COVERAGE & TESTING =====
+coverage/
+.nyc_output/
+.jest/
+jest-coverage/
+
+# ===== SASS COMPILED FILES (IF USING SASS) =====
+*.css.map
+
+# ===== MINIFIED FILES (IF DEVELOPING) =====
+# src/**/*.min.js
+# src/**/*.min.css
+
+# ===== DATABASE FILES =====
+*.sqlite
+*.sqlite3
+*.db
+
+# ===== BUNDLE & PACKAGE FILES =====
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# ===== ASSET CACHE =====
+.asset-cache
+
+# ===== EDITOR BACKUPS =====
+*.code-workspace
+
+# ===== VS CODE SPECIFIC =====
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===== PRIVATE/SENSITIVE FILES =====
+secrets.json
+config.private.js
+.api-key
+
+# ===== PRODUCTION BUILDS =====
+dist/
+*.tar.gz
+
+# ===== MISC =====
+.cache
+*.pem
+*.key
